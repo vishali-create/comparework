@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #2d6cdf;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+/* TABLE STYLES */
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.compare-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.compare-table th {
+    background: #2d6cdf;
+    color: white;
+    padding: 10px;
+}
+
+.compare-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* FORM STYLES */
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
